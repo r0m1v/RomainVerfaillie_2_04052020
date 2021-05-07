@@ -1,8 +1,123 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset-utf8 />
+		<meta charset="utf-8" />
 		<link rel="stylesheet" href="reservia.css" />
+		<script src="https://kit.fontawesome.com/3d0e2c9533.js" crossorigin="anonymous"></script>
 		<title>Projet Site Reservia</title>
 	</head>
+	
+	<body>
+
+		<div id="bloc_page">
+		<header>
+			<div id="haut_de_page">
+				<div id="logo">
+					<img src="images/logo/reservia_logo.png" class="reservia_logo" alt="Logo Reservia" />
+				</div>
+			<nav>
+				<div id="liens_haut_de_page">
+					<a href="#hebergement" class="liens_top_right">Hébergements </a>
+					<a href="#activites" class="liens_top_right">Activités </a>
+					<a href="page.php" class="liens_top_right"><strong>S'inscrire</strong></a>
+				</div>
+			</nav>
+			</div>
+
+			<h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+			<p>En plein centre ville ou en pleine nature</p>
+			<div id="formulaire">
+					<i id="b_icone_form" class="fas fa-map-marker-alt"></i> <!-- Icone du formulaire -->
+				<form>
+					<input id="taille_champ" type="text" name="ville_pays" value="Marseille, France" placeholder="exemple: Ville, Pays" />
+				</form>
+					<button id="bouton_rech" type="submit"><strong><font color="white">Rechercher</font></strong></button>
+			</div>
+			<div id="filtres">
+				<h2>Filtres</h2>
+				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-money-bill-wave"></i></span><strong>Économique</strong></button>
+				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-child"></i></span><strong>Familial</strong></button>
+				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-heart"></i></span><strong>Romantique</strong></button>
+				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-dog"></i></span><strong>Animaux autorisés</strong></button>
+			</div>
+			<p><span id="icone_c_b"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans cette ville</p>
+		</header>
+
+		<section>
+			<div id="section1">
+			<div  class="bloc_gris"><h2 id="hebergement">Hébergements à Marseille</h2>
+				<div id="liste_photos_hebergement">
+					<div class="groupe_photo_heb">
+						<img src="images/hebergements/photo_heb_1.jpg" class="photos_heb" alt="Auberge de la cannebière" />
+						<img src="images/hebergements/photo_heb_2.jpg" class="photos_heb" alt="Hôtel du port"/>
+						<img src="images/hebergements/photo_heb_3.jpg" class="photos_heb" alt="Hôtel les mouettes"/>
+					</div>
+					<div class="groupe_photo_heb">
+						<img src="images/hebergements/photo_heb_4.jpg" class="photos_heb" alt="Hôtel de la mer"/>
+						<img src="images/hebergements/photo_heb_5.jpg" class="photos_heb" alt="Auberge le panier" />
+						<img src="images/hebergements/photo_heb_6.jpg" class="photos_heb" alt="Hôtel chez Amina"/>
+					</div>
+				</div>
+				<p><strong>Afficher plus</strong></p>
+			</div>
+
+				<aside>
+					<div  class="bloc_gris">
+					<h2>Les plus populaires</h2>
+						<div id="liste_photos_lpp">
+							<img src="images/lpp/photo_lpp_1.jpg" class="photo_lpp" alt="Hôtel le soleil du matin">
+							<img src="images/lpp/photo_lpp_2.jpg" class="photo_lpp" alt="Au coeur de l'eau">
+							<img src="images/lpp/photo_lpp_3.jpg" class="photo_lpp" alt="Hôtel tout bleu et blanc">
+						</div>
+					</div>
+				</aside>
+			</div>
+		</section>
+		
+		<section>
+			<div id="section2">	
+			<h2 id="activites">Activités à Marseille</h2>
+				<div id="liste_photos_act">
+					<img src="images/activites/photo_act_1_l.jpg" class="photo_act" alt="Vieux port">
+					<img src="images/activites/photo_act_2_m.jpg" class="photo_act" alt="Fort de Pomègues">
+					<img src="images/activites/photo_act_3_m.jpg" class="photo_act" alt="Iles du Frioul">
+					<img src="images/activites/photo_act_4_l.jpg" class="photo_act" alt="Parc national des Calanques">
+					<img src="images/activites/photo_act_5_m.jpg" class="photo_act" alt="Notre-dame-de-la-garde">
+					<img src="images/activites/photo_act_6_m.jpg" class="photo_act" alt="Parc longchamp">
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div id="pied_de_page" class="bloc_gris">
+				<div class="liens_bot">
+						<ul>
+							<li><h3><strong>A propos</strong></h3></li>
+							<li><a href="#bloc_page">Fonctionnement du site</a></li>
+							<li><a href="#bloc_page">Conditions générales de vente</a></li>
+							<li><a href="#bloc_page">Données et confidentialité</a></li>
+						</ul>
+				</div>
+				<div class="liens_bot">
+						<ul>
+							<li><h3><strong>Nos hébergements</strong></h3></li>
+							<li><a href="#bloc_page">Charte qualité</a></li>
+							<li><a href="#bloc_page">Soumettre votre hôtel</a></li>
+						</ul>
+				</div>
+				<div class="liens_bot">
+					<div id="assistance">	
+						<ul>
+							<li><h3><strong>Assistance</strong></h3></li>
+							<li><a href="#bloc_page">Centre d'aide</a></li>
+							<li><a href="#bloc_page">Nous contacter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		</div>
+
+	</body>
+
 </html>
