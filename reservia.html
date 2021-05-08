@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="reservia.css" />
@@ -16,10 +16,10 @@
 					<img src="images/logo/reservia_logo.png" class="reservia_logo" alt="Logo Reservia" />
 				</div>
 			<nav>
-				<div id="liens_haut_de_page">
-					<a href="#hebergement" class="liens_top_right">Hébergements </a>
-					<a href="#activites" class="liens_top_right">Activités </a>
-					<a href="page.php" class="liens_top_right"><strong>S'inscrire</strong></a>
+				<div id="liens_top">
+					<a href="#hebergement" class="liens_top_right border_blue">Hébergements </a>
+					<a href="#activites" class="liens_top_right border_blue"><span id="color_act">Activités</span></a>
+					<a href="page.php" class="liens_top_right border_blue"><strong>S'inscrire</strong></a>
 				</div>
 			</nav>
 			</div>
@@ -30,17 +30,17 @@
 					<i id="b_icone_form" class="fas fa-map-marker-alt"></i> <!-- Icone du formulaire -->
 				<form>
 					<input id="taille_champ" type="text" name="ville_pays" value="Marseille, France" placeholder="exemple: Ville, Pays" />
+					<button id="bouton_rech" type="submit"><span id="color_rech"><strong>Rechercher</strong></span></button>
 				</form>
-					<button id="bouton_rech" type="submit"><strong><font color="white">Rechercher</font></strong></button>
 			</div>
 			<div id="filtres">
-				<h2>Filtres</h2>
-				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-money-bill-wave"></i></span><strong>Économique</strong></button>
-				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-child"></i></span><strong>Familial</strong></button>
-				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-heart"></i></span><strong>Romantique</strong></button>
-				<button class="bouton_filt"><span class="icone_c_b_f"><i class="fas fa-dog"></i></span><strong>Animaux autorisés</strong></button>
+					<h2>Filtres</h2>
+					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-money-bill-wave"></i></span><span class="txt_bloc"><strong>Économique</strong></span></div>
+					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-child"></i></span><span class="txt_bloc"><strong>Familial</strong></span></div>
+					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-heart"></i></span><span class="txt_bloc"><strong>Romantique</strong></span></div>
+					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-dog"></i></span><span class="txt_bloc"><strong>Animaux autorisés</strong></span></div>
 			</div>
-			<p><span id="icone_c_b"><i class="fas fa-info"></i></span>Plus de 500 logements sont disponibles dans cette ville</p>
+			<div id="phrase_info"><span id="bord_info"><i class="fas fa-info"></i></span><p>Plus de 500 logements sont disponibles dans cette ville<p></div>
 		</header>
 
 		<section>
@@ -114,6 +114,8 @@
 						</ul>
 					</div>
 				</div>
+			</div>
+			<div class="bloc_photo_heb">
 			</div>
 		</footer>
 		</div>

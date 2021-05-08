@@ -36,11 +36,30 @@ img
 	padding-top: 20px;
 }
 
+#liens_top
+{
+	word-spacing: 2rem;
+}
 .liens_top_right
 {
-	word-spacing: 1rem;
 	text-decoration: none; /*enlève trait du lien*/
-	/* bordure en top border-top: 2px blue solid; */
+	color: #0065FC;
+}
+
+#color_act
+{
+	color: black;
+}
+
+#color_rech
+{
+	color: white;
+}
+
+.border_blue:hover
+{
+	border-top: 3px #0065FC solid;
+	padding-top: 25px;
 }
 
 .reservia_logo
@@ -80,7 +99,7 @@ img
 
 input
 {
-	border: 2px solid #F2F2F2;
+	border: solid 2px #F2F2F2;
 	opacity: 0.8;
 }
 
@@ -91,37 +110,56 @@ input
 #filtres
 {
 	display: flex;
-
+	align-items: baseline;
 }
 
-.bouton_filt
+.bord_filtres
 {
+	border: 3px solid;
+	border-color: #F2F2F2 #F2F2F2 #F2F2F2 transparent;
+	border-radius: 50px;
+	height: 35px;
 	display: flex;
 	justify-content: flex-start;
 	align-items: center;
-	border-radius: 50px;
-	height: 50px;
-	border: 2px solid #F2F2F2;
-	background-color: #FFFF;
+
 }
-.icone_c_b_f
+
+.icone_filtre
 {
-	border: 1px solid #DEEBFF;
-	border-radius: 50%;
-	padding: 20%;
-	color: #0065FC;
+	border: 4px solid #DEEBFF;
 	background-color: #DEEBFF;
+	color: #0065FC;
+	border-radius: 50%;
+	height: 34px;
+	width: 34px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-#icone_c_b
+.txt_bloc
 {
-	border: 1px solid black;
+	padding: 15px;
+}
+
+#phrase_info
+{
+	display: flex;
+	align-items: baseline;
+}
+
+#bord_info
+{
+	border: 2px solid #F2F2F2;
 	border-radius: 50%;
 	color: #0065FC;
-
+	width: 20px;
+	height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-
 /*---------------------------------------------------------------------------------------------------*/
 /*<section> 1*/
 /*---------------------------------------------------------------------------------------------------*/
