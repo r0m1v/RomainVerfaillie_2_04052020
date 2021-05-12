@@ -1,0 +1,142 @@
+/*---------------------------------------------------------------------------------------------------*/
+/*section2*/
+/*---------------------------------------------------------------------------------------------------*/
+
+#bloc_photos_123456
+{
+	border: 1px solid black;
+	display: flex;
+	justify-content: space-between;
+}
+
+#bloc_photos123
+{
+	display: flex;
+}
+
+#bloc_photo1_act:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	width: 18em;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px #F2F2F2;
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+#photo1_act
+{
+	width: 18em;
+	height: 25em;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#bloc_photo2-3
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#bloc_photo2_act:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	width: 18em;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px #F2F2F2;
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+#photo2_act
+{
+	width: 18em;
+	height: 12em;
+	border-radius:20px 20px 0px 0px;
+}
+
+#bloc_photo3_act:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	width: 18em;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px #F2F2F2;
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+#photo3_act
+{
+	width: 18em;
+	height: 8em;
+	border-radius:20px 20px 0px 0px;
+}
+
+#bloc_photo456
+{
+	display: flex;
+}
+
+#bloc_photo4_act:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	width: 18em;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px #F2F2F2;
+	transform: scale(1.03);
+	cursor: pointer;	
+}
+
+#photo4_act
+{
+	width: 18em;
+	height: 25em;
+	border-radius: 20px 20px 0px 0px;
+}
+
+#bloc_photo5-6
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#bloc_photo5_act:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	width: 18em;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px #F2F2F2;
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+#photo5_act
+{
+	width: 18em;
+	height: 8em;
+	border-radius:20px 20px 0px 0px;
+}
+
+#bloc_photo6_act:hover
+{
+	border: 1px solid white;
+	background-color: white;
+	width: 18em;
+	border-radius: 20px;
+	box-shadow: 1px 1px 1px 1px #F2F2F2;
+	transform: scale(1.03);
+	cursor: pointer;
+}
+
+#photo6_act
+{
+	width: 18em;
+	height: 12em;
+	border-radius:20px 20px 0px 0px;
+}

@@ -1,0 +1,35 @@
+/*---------------------------------------------------------------------------------------------------*/
+/*<footer>*/
+/*---------------------------------------------------------------------------------------------------*/
+#pied_de_page
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+#bloc_gris_footer
+{
+	border: 1px solid #F2F2F2;
+	background-color: #F2F2F2;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	margin: 15px;
+}
+
+.liens_bot
+{
+	color: black;
+	text-decoration: none;
+}
+
+.liens_bot:hover
+{
+	text-decoration: underline;
+}
