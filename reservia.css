@@ -22,3 +22,11 @@ img
 }
 
 
+@media screen and (max-width: 720px)
+{
+	#bloc_page
+	{
+		width: auto;
+	}
+}
+
