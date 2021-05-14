@@ -46,3 +46,23 @@
 {
 	text-decoration: underline;
 }
+
+@media screen and (max-width: 767px)
+{
+
+	#pied_de_page
+	{
+		display: flex;
+		flex-direction: column;
+		font-size: 1.2em;
+		padding: 2em;
+	}
+
+	#bloc_gris_footer
+	{
+		border: 1px solid #F2F2F2;
+		background-color: #F2F2F2;
+		width: auto;
+		height: 33em;
+	}
+}

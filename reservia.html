@@ -2,7 +2,6 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="stylesheet" href="reservia.css" />
 		<link rel="stylesheet" href="reservia_header.css" />
 		<link rel="stylesheet" href="reservia_section1.css" />
 		<link rel="stylesheet" href="reservia_section2.css" />
@@ -35,14 +34,19 @@
 				<form>
 					<input id="taille_champ" type="text" name="ville_pays" value="Marseille, France" placeholder="exemple: Ville, Pays" />
 					<button id="bouton_rech" type="submit"><span id="color_rech"><strong>Rechercher</strong></span></button>
+					<button id="b_resp" type="submit"><i class="fas fa-search"></i></span></button>
 				</form>
 			</div>
 			<div id="filtres">
 					<h2>Filtres</h2>
+					<div id="f_resp1">
 					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-money-bill-wave"></i></span><span class="txt_bloc"><strong>Économique</strong></span></div>
 					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-child"></i></span><span class="txt_bloc"><strong>Familial</strong></span></div>
+					</div>
+					<div id="f_resp2">
 					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-heart"></i></span><span class="txt_bloc"><strong>Romantique</strong></span></div>
 					<div class="bord_filtres"><span class="icone_filtre"><i class="fas fa-dog"></i></span><span class="txt_bloc"><strong>Animaux autorisés</strong></span></div>
+					</div>
 			</div>
 			<div id="phrase_info"><span id="bord_info"><i class="fas fa-info"></i></span><span id="marge_phrase">Plus de 500 logements sont disponibles dans cette ville</span></div>
 		</header>
@@ -50,7 +54,7 @@
 		<section>
 			<div id="section1">
 			<aside>
-				<div  class="bloc_gris_section1"><h2><span id="align_h2_icone">Les plus populaires<i class="fas fa-chart-line"></i></span></h2>
+				<div  id="bloc_gris_lpp"><h2><span id="align_h2_icone">Les plus populaires<i class="fas fa-chart-line"></i></span></h2>
 						<div id="groupe_photos_lpp">
 							<div class="bloc_photo_lpp">
 								<img src="images/lpp/photo_lpp_1.jpg" class="photos_lpp" alt="Hôtel le soleil du matin">
@@ -102,7 +106,7 @@
 			</div> <!-- /div class="bloc_gris"><h2>Les plus populaires</h2> -->
 			</aside>
 
-			<div  class="bloc_gris_section1"><h2 id="hebergement">Hébergements à Marseille</h2>
+			<div  id="bloc_gris_heb"><h2 id="hebergement">Hébergements à Marseille</h2>
 				<div class="groupe_photo_heb">
 					<div class="bloc_photo_heb">
 						<img src="images/hebergements/photo_heb_1.jpg" class="photos_heb" alt="Auberge de la cannebière" />

@@ -1,7 +1,17 @@
 /*---------------------------------------------------------------------------------------------------*/
 /*<section> 1*/
 /*---------------------------------------------------------------------------------------------------*/
-.bloc_gris_section1
+#bloc_gris_lpp
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 15px 15px 15px;
+	background-color: #F2F2F2;
+	margin: 15px;
+	padding: 15px 25px;
+	height: 40em;
+}
+
+#bloc_gris_heb
 {
 	border: 1px solid #F2F2F2;
 	border-radius: 15px 15px 15px 15px;
@@ -135,4 +145,33 @@
 {
 	display: flex;
 	margin-top: 5px;
+}
+
+@media screen and (max-width: 767px)
+{
+	#section1
+{
+	display: flex;
+	flex-direction: column;
+	height: 150em;
+}
+
+#bloc_gris_lpp
+{
+	width: 25em;
+}
+
+#bloc_gris_heb
+{
+	border: 1px solid white;
+	background-color: white;
+}
+
+.groupe_photo_heb
+{
+	display: flex;
+	flex-direction: column;
+}
+
+
 }
