@@ -147,7 +147,7 @@
 	margin-top: 5px;
 }
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 768px)
 {
 	#section1
 {
@@ -156,9 +156,17 @@
 	height: 150em;
 }
 
+#pos_ic_lpp
+{
+	position: relative;
+	left: -2em;
+}
+
 #bloc_gris_lpp
 {
-	width: 25em;
+	width: 26em;
+	border-radius: 0px 0px 0px 0px;
+	margin-left: 0em;
 }
 
 #bloc_gris_heb

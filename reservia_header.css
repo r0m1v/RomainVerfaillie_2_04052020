@@ -10,7 +10,7 @@
 	font-family: Raleway;
 	font-size: 1em;
 	max-width: 96em;
-	min-width: 767px;
+	min-width: 768px;
 	margin: auto;
 }
 
@@ -93,7 +93,9 @@ img
 
 #b_resp
 {
-	color: #0065FC;
+	background-color: transparent;
+	border: none;
+	color: transparent;
 }
 
 #taille_champ
@@ -180,17 +182,52 @@ input
 
 
 
-@media screen and (max-width: 767px)
+@media screen and (max-width: 768px)
 {
 	h1
 	{
 		width: 15em;
 		overflow: auto;
 	}
+	#formulaire
+	{
+		margin: 1em;
+	}
+
+	#b_icone_form
+{
+	border: 1px solid #F2F2F2;
+	border-radius: 10px 0px 0px 10px;
+	padding: 1.25em;
+	background-color: #F2F2F2
+}
+
+	input
+	{
+		padding: 0.5em;
+		width: 15em;
+		font-size: 1.2em;
+		position: relative;
+		bottom: -0.1em;
+	}
+
+	#bouton_rech
+	{
+		background-color: transparent;
+		border: none;
+		color: transparent;
+	}
 
 	#b_resp
 	{
 		color: white;
+		background-color: #0065FC;
+		border: 1px solid #0065FC;
+		border-radius: 10px 10px 10px 10px;
+		height: 4.3em;
+		width: 4.3em;
+		position: relative;
+		left: -8.5em;
 	}
 
 	#filtres
