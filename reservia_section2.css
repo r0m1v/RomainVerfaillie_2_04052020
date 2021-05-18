@@ -9,6 +9,11 @@
 	margin-bottom: 2em;
 }
 
+.marge_title_act
+{
+	margin-left: 1em;
+}
+
 
 #bloc_photo1_act
 {
@@ -165,6 +170,7 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		margin: 2em;
 	}
 
 	#bloc_photos_123456
@@ -177,17 +183,17 @@
 	{
 		display: flex;
 		flex-direction: column;
-		width: 295px;
+		/*width: 500px;*/
 		height: 205px;
 		border-radius: 20px;
 		margin: 15px;
 		box-shadow: 1px 1px 12px rgba(194, 194, 194, 0.397);
 	}
 
-	.photos_act_resp
+	#photo1_act, #photo2_act, #photo3_act, #photo4_act, #photo5_act, #photo6_act
 	{
-		max-width: auto;
-		height: 138px;
+		/*max-width: auto;*/
+		height: 150px;
 		border-radius: 20px 20px 0px 0px;
 	}
 }

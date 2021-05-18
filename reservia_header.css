@@ -2,12 +2,28 @@
 {
 	font-family: 'Raleway';
 	src: url('police/Raleway/Raleway-Regular.ttf');
-
+	src: url('police/Raleway/Raleway-Bold.ttf');
+	/*src: url('police/Raleway/Raleway-Black.ttf');
+	src: url('police/Raleway/Raleway-BlackItalic.ttf');
+	src: url('police/Raleway/Raleway-BoldItalic.ttf');
+	src: url('police/Raleway/Raleway-ExtraBold.ttf');
+	src: url('police/Raleway/Raleway-ExtraBoldItalic.ttf');
+	src: url('police/Raleway/Raleway-ExtraLight.ttf');
+	src: url('police/Raleway/Raleway-ExtraLightItalic.ttf');
+	src: url('police/Raleway/Raleway-Italic.ttf');
+	src: url('police/Raleway/Raleway-Light.tff');
+	src: url('police/Raleway/Raleway-Light-Italic.ttf');
+	src: url('police/Raleway/Raleway-Medium.ttf');
+	src: url('police/Raleway/Raleway-MediumItalic.ttf');
+	src: url('police/Raleway/Raleway-SemiBold.ttf');
+	src: url('police/Raleway/Raleway-SemiBoldItalic.ttf');
+	src: url('police/Raleway/Raleway-Thin.ttf');
+	src: url('police/Raleway/Raleway-ThinItalic.ttf');*/
 }
 
 #bloc_page
 {
-	font-family: Raleway;
+	font-family: Raleway-Regular;
 	font-size: 1em;
 	max-width: 96em;
 	min-width: 768px;
@@ -29,34 +45,74 @@ img
 #haut_de_page
 {
 	padding-top: 20px;
+	font-size: 1.1em;
 }
 
-#liens_top
+#reservia_logo
 {
-	word-spacing: 2rem;
+	width: 97px;
+	height: 45px;
 }
+
+#inscr_resp
+{
+	display: none;
+}
+
 .liens_top_right
 {
 	text-decoration: none;
 	color: #0065FC;
+	margin-right: 3em;
+	position: relative;
+	top: -1em;
 }
 
+.border_blue
+{
+	border-top: 3px #0065FC solid;
+	padding-top: 1em;
+}
+
+#liens_top_resp
+{
+	display: none;
+}
+
+#color_act_resp_act_heb
+{
+	color: white;
+}
+
+#color_act_resp_act
+{
+	color: white;
+}
+
+#color_act_resp
+{
+	color: white;
+}
 #color_act
 {
 	color: black;
 }
 
-.border_blue:hover
+#color_rech
 {
-	border-top: 3px #0065FC solid;
-	padding-top: 25px;
+	color: white;
 }
 
-.reservia_logo
+
+#liens_top
 {
-	width: 97px;
-	height: 45px;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+	top: -3em;
+	font-size: 1.1em;
 }
+
 
 /*---------------------------------------------------------------------------------------------------*/
 /* Formulaire*/
@@ -190,6 +246,65 @@ input
 
 @media screen and (max-width: 768px)
 {
+	#bloc_page
+	{
+		margin: 1em;
+	}
+
+	#log_resp
+	{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 26em;
+	}
+
+	#inscr_resp
+	{
+		display: flex;
+		color: #0065FC;
+		font-size: 1.2em;
+		text-decoration: none;
+		margin-right: 1em;
+	}
+
+	#liens_top_resp
+	{
+		display: flex;
+		font-size: 1.2em;
+		width: 18em;
+		justify-content: space-between;
+		margin-left: 2em;
+		padding-top: 2em;
+	}
+
+	#liens_top
+	{
+		display: none;
+	}
+
+	.liens_top_right_resp
+	{
+		text-decoration: none;
+		border-bottom: 3px solid #F2F2F2;
+		padding-bottom: 1em;
+	}
+
+	.liens_top_right_resp:hover
+	{
+		border-bottom: 3px solid #0065FC;
+	}
+
+	#color_act_resp_heb
+	{
+		color: #0065FC;
+	}
+
+	#color_act_resp_activ
+	{
+		color: black;
+	}
+	
 	h1
 	{
 		width: 15em;
