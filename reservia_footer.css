@@ -5,6 +5,7 @@
   border: 1px solid #f2f2f2;
   background-color: #f2f2f2;
   height: 15em;
+  width: 100%;
 }
 
 #pied_de_page {
@@ -40,10 +41,9 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   #pied_de_page {
-    width: 100%;
-    overflow-x: hidden;
+    width: auto;
     display: flex;
     flex-direction: column;
     font-size: 1.2em;

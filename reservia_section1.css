@@ -5,7 +5,7 @@
 #section1 {
   display: flex;
   flex-direction: row-reverse;
-  width: 100%;
+  width: 96em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -17,7 +17,7 @@
   margin: 15px;
   padding: 15px 25px;
   height: 40em;
-  width: 100%;
+  width: 80%;
 }
 
 #bloc_gris_heb {
@@ -129,7 +129,7 @@
   margin-top: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
   #section1 {
     display: flex;
     flex-direction: column;
