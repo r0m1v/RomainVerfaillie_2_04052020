@@ -2,8 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="321, initial-scale=1" />
-    <meta name="viewport" content="768, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="reservia_header.css" />
     <link rel="stylesheet" href="reservia_section1.css" />
     <link rel="stylesheet" href="reservia_section2.css" />
@@ -53,20 +52,18 @@
         <p>En plein centre ville ou en pleine nature</p>
         <div id="formulaire">
           <i id="b_icone_form" class="fas fa-map-marker-alt"></i>
-          <!-- Icone du formulaire -->
           <form>
             <input
-              id="taille_champ"
               type="text"
               name="ville_pays"
               value="Marseille, France"
               placeholder="exemple: Ville, Pays"
             />
+            <button id="bouton_resp" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
             <button id="bouton_rech" type="submit">
               <span id="color_rech"><strong>Rechercher</strong></span>
-            </button>
-            <button id="b_resp" type="submit">
-              <i class="fas fa-search"></i>
             </button>
           </form>
         </div>
@@ -335,7 +332,7 @@
         <div id="section2">
           <h2 id="activites">Activités à Marseille</h2>
           <div id="bloc_photos_123456">
-            <div class="bloc_photos_act" class="bloc_photos_act_resp">
+            <div class="bloc_photos_act">
               <img
                 src="images/activites/photo_act_1_l.jpg"
                 id="photo1_act"
@@ -345,7 +342,7 @@
               <p class="marge_title_act"><strong>Vieux port</strong></p>
             </div>
             <div id="bloc_photo2-3">
-              <div class="bloc_photos_act" class="bloc_photos_act_resp">
+              <div class="bloc_photos_act">
                 <img
                   src="images/activites/photo_act_2_m.jpg"
                   id="photo2_act"
@@ -354,7 +351,7 @@
                 />
                 <p class="marge_title_act"><strong>Fort de Pomègues</strong></p>
               </div>
-              <div class="bloc_photos_act" class="bloc_photos_act_resp">
+              <div class="bloc_photos_act">
                 <img
                   src="images/activites/photo_act_3_m.jpg"
                   id="photo3_act"
@@ -364,7 +361,7 @@
                 <p class="marge_title_act"><strong>Îles du Frioul</strong></p>
               </div>
             </div>
-            <div class="bloc_photos_act" class="bloc_photos_act_resp">
+            <div class="bloc_photos_act">
               <img
                 src="images/activites/photo_act_4_l.jpg"
                 id="photo4_act"
@@ -376,7 +373,7 @@
               </p>
             </div>
             <div id="bloc_photo5-6">
-              <div class="bloc_photos_act" class="bloc_photos_act_resp">
+              <div class="bloc_photos_act">
                 <img
                   src="images/activites/photo_act_5_m.jpg"
                   id="photo5_act"
@@ -387,7 +384,7 @@
                   <strong>Notre-Dame-de-la-Garde</strong>
                 </p>
               </div>
-              <div class="bloc_photos_act" class="bloc_photos_act_resp">
+              <div class="bloc_photos_act">
                 <img
                   src="images/activites/photo_act_6_m.jpg"
                   id="photo6_act"

@@ -5,9 +5,9 @@
 #section1 {
   display: flex;
   flex-direction: row-reverse;
-  width: 96em;
-  margin-left: auto;
-  margin-right: auto;
+  width: 100%;
+  /*margin-left: auto;
+  margin-right: auto;*/
 }
 
 #bloc_gris_lpp {
@@ -17,7 +17,7 @@
   margin: 15px;
   padding: 15px 25px;
   height: 40em;
-  width: 80%;
+  width: 85%;
 }
 
 #bloc_gris_heb {
@@ -55,6 +55,7 @@
 
 .groupe_photo_heb {
   display: flex;
+  justify-content: space-between;
 }
 
 .photos_heb {
@@ -129,7 +130,7 @@
   margin-top: 5px;
 }
 
-@media screen and (min-width: 321px) and (max-width: 768px) {
+@media (max-width: 768px) {
   #section1 {
     display: flex;
     flex-direction: column;
@@ -143,7 +144,7 @@
   }
 
   #bloc_gris_lpp {
-    width: 26em;
+    width: auto;
     border-radius: 0px 0px 0px 0px;
     margin-left: 0em;
   }
