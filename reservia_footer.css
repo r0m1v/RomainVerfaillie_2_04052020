@@ -41,7 +41,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   #pied_de_page {
     display: flex;
     flex-direction: column;

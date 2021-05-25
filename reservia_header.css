@@ -24,23 +24,23 @@
 	src: url('police/Raleway/Raleway-ThinItalic.ttf');*/
 
 body {
-  width: 96em;
-  margin: 0 auto 0 auto; /*centre la page*/
+  border: solid 3px red;
+  margin: 0 auto;
+  width: 1024px;
 }
 
-#bloc_page {
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*#bloc_page {
   font-family: Raleway-Regular;
   font-size: 1em;
   width: auto;
   margin-left: auto;
   margin-right: auto;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  object-fit: cover;
-}
+}*/
 
 /*---------------------------------------------------------------------------------------------------*/
 /*<Header>*/
@@ -219,7 +219,7 @@ input {
   margin: 15px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   Body {
     display: flex;
     flex-direction: column;
