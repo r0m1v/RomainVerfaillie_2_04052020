@@ -17,35 +17,24 @@
   <body>
     <div id="bloc_page">
       <header>
-        <div id="haut_de_page">
-          <nav>
-            <div id="log_resp">
-              <img
-                src="images/logo/reservia_logo.png"
-                id="reservia_logo"
-                alt="Logo Reservia"
-              /><a href="page.php" id="inscr_resp"
-                ><strong>S'inscrire</strong><br
-              /></a>
-            </div>
-            <div id="liens_top">
-              <a href="#hebergement" class="liens_top_right">Hébergements </a>
-              <a href="#activites" class="liens_top_right"
-                ><span id="color_act">Activités</span></a
-              >
-              <a href="page.php" id="spaninscr">S'inscrire</a>
-            </div>
-            <div id="liens_top_resp">
-              <a href="#hebergement" class="liens_top_right_resp"
-                ><span id="color_act_resp_heb">Hébergements</span></a
-              >
-              <a href="#activites" class="liens_top_right_resp"
-                ><span id="color_act_resp_activ">Activités</span></a
-              >
-            </div>
-          </nav>
+        <nav>
+          <img
+            src="images/logo/reservia_logo.png"
+            id="reservia_logo"
+            alt="Logo Reservia"
+          />
+          <div id="liens_top">
+            <a href="#hebergement" class="link color-blue">Hébergement</a>
+            <a href="#activites" class="link color-black">Activités</a>
+            <a href=".php" id="link_inscr" class="bold color-blue"
+              >S'inscrire</a
+            >
+          </div>
+        </nav>
+        <div id="liens_top_resp">
+          <a href="#hebergement" class="link_resp color-blue">Hébergement</a
+          ><a href="#activites" class="link_resp color-black">Activités</a>
         </div>
-
         <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
         <p>En plein centre ville ou en pleine nature</p>
         <div id="formulaire">
@@ -57,13 +46,13 @@
               value="Marseille, France"
               placeholder="exemple: Ville, Pays"
             />
-            <button id="bouton_resp" type="submit">
-              <i class="fas fa-search"></i>
-            </button>
-            <button id="bouton_rech" type="submit">
-              <span id="color_rech"><strong>Rechercher</strong></span>
-            </button>
           </form>
+          <button type="submit" id="bouton_rech" class="bold">
+            Rechercher
+          </button>
+          <button id="bouton_resp" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
         </div>
         <div id="filtres">
           <h2>Filtres</h2>
@@ -310,7 +299,7 @@
                 </div>
               </div>
             </div>
-            <p>Afficher plus</p>
+            <p class="bold">Afficher plus</p>
           </div>
         </div>
       </section>

@@ -8,7 +8,6 @@
   width: 100%;
   border-radius: 20px;
   box-shadow: 1px 1px 12px rgba(194, 194, 194, 0.397);
-  border: blue solid 2px;
 }
 
 .bloc_photos_act:hover {
@@ -65,14 +64,7 @@
     flex-direction: column;
   }
 
-  /*.photos_act_resp{
-	width: 100%;
-  border-radius: 20px 20px 0px 0px;
-  object-fit: cover;
-}*/
-
   .bloc_photos_act {
-    border: blue solid 2px;
     margin-bottom: 10px;
   }
 
@@ -94,119 +86,3 @@
     height: 10.5em;
   }
 }
-
-/*
-
-#section2 {
-  width: 100%;
-}
-
-#bloc_photos_123456 {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2em;
-}
-
-.marge_title_act {
-  margin-left: 1em;
-}
-
-/*#bloc_photo1_act,
-#bloc_photo2_act,
-#bloc_photo3_act,
-#bloc_photo4_act,
-#bloc_photo5_act,
-#bloc_photo6_act {
-  border: 1px solid white;
-  background-color: white;
-  width: 22em;
-  border-radius: 20px;
-  box-shadow: 1px 1px 12px rgba(194, 194, 194, 0.397);
-}
-
-.bloc_photos_act {
-  border: 1px solid white;
-  background-color: white;
-  width: 22em;
-  border-radius: 20px;
-  box-shadow: 1px 1px 12px rgba(194, 194, 194, 0.397);
-}
-
-/*#bloc_photo1_act:hover,
-#bloc_photo2_act:hover,
-#bloc_photo3_act:hover,
-#bloc_photo4_act:hover,
-#bloc_photo5_act:hover,
-#bloc_photo6_act:hover {
-  transform: scale(1.02);
-  cursor: pointer;
-}
-
-
-.bloc_photos_act:hover {
-  transform: scale(1.02);
-  cursor: pointer;
-}
-
-#photo1_act,
-#photo4_act {
-  width: 22em;
-  height: 30em;
-  border-radius: 20px 20px 0px 0px;
-}
-
-#bloc_photo2-3,
-#bloc_photo5-6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-#photo2_act,
-#photo6_act {
-  width: 22em;
-  height: 14em;
-  border-radius: 20px 20px 0px 0px;
-}
-
-#photo3_act,
-#photo5_act {
-  width: 22em;
-  height: 10em;
-  border-radius: 20px 20px 0px 0px;
-}
-
-@media screen and (max-width: 768px) {
-  #section2 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 2em;
-  }
-
-  #bloc_photos_123456 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bloc_photos_act {
-    display: flex;
-    flex-direction: column;
-    height: 205px;
-    border-radius: 20px;
-    box-shadow: 1px 1px 12px rgba(194, 194, 194, 0.397);
-    margin-bottom: 2em;
-  }
-
-  #photo1_act,
-  #photo2_act,
-  #photo3_act,
-  #photo4_act,
-  #photo5_act,
-  #photo6_act {
-  max-width: auto;
-    height: 150px;
-    border-radius: 20px 20px 0px 0px;
-  }
-}
-*/

@@ -6,27 +6,12 @@
   font-family: "Raleway-Bold";
   src: url("police/Raleway/Raleway-Bold.ttf");
 }
-/*src: url('police/Raleway/Raleway-Black.ttf');
-	src: url('police/Raleway/Raleway-BlackItalic.ttf');
-	src: url('police/Raleway/Raleway-BoldItalic.ttf');
-	src: url('police/Raleway/Raleway-ExtraBold.ttf');
-	src: url('police/Raleway/Raleway-ExtraBoldItalic.ttf');
-	src: url('police/Raleway/Raleway-ExtraLight.ttf');
-	src: url('police/Raleway/Raleway-ExtraLightItalic.ttf');
-	src: url('police/Raleway/Raleway-Italic.ttf');
-	src: url('police/Raleway/Raleway-Light.tff');
-	src: url('police/Raleway/Raleway-Light-Italic.ttf');
-	src: url('police/Raleway/Raleway-Medium.ttf');
-	src: url('police/Raleway/Raleway-MediumItalic.ttf');
-	src: url('police/Raleway/Raleway-SemiBold.ttf');
-	src: url('police/Raleway/Raleway-SemiBoldItalic.ttf');
-	src: url('police/Raleway/Raleway-Thin.ttf');
-	src: url('police/Raleway/Raleway-ThinItalic.ttf');*/
 
 body {
-  border: solid 3px red;
+  /*border: solid 3px red;*/
   margin: 0 auto;
-  width: auto;
+  max-width: 100%;
+  font-family: Raleway-Regular;
 }
 
 img {
@@ -34,121 +19,97 @@ img {
   max-height: 100%;
 }
 
-/*#bloc_page {
-  font-family: Raleway-Regular;
-  font-size: 1em;
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-}*/
+#bloc_page {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.bold {
+  font-family: Raleway-Bold;
+}
+
+.color-black {
+  color: black;
+}
+
+.color-blue {
+  color: #0065fc;
+}
 
 /*---------------------------------------------------------------------------------------------------*/
-/*<Header>*/
+/*NAV*/
 /*---------------------------------------------------------------------------------------------------*/
-#haut_de_page {
-  padding-top: 20px;
-  font-size: 1.1em;
+
+nav {
+  display: flex;
+  justify-content: space-between;
 }
 
 #reservia_logo {
-  width: 97px;
-  height: 45px;
+  width: 125px;
+  height: 65px;
 }
 
-#inscr_resp {
-  display: none;
+#liens_top {
+  display: flex;
+  flex-direction: row;
 }
 
-.liens_top_right {
+.link {
   display: flex;
   justify-content: center;
-  width: 8em;
-  text-decoration: none;
-  color: #0065fc;
-  margin-right: 3em;
-  position: relative;
-  top: -0.5em;
-  border-top: 3px white solid;
-  padding: 1em;
-}
-
-.liens_top_right:hover {
-  border-top: 3px #0065fc solid;
-  padding: 1em;
-}
-
-/*.border_blue {
-  border-top: 3px #0065fc solid;
+  width: 10em;
+  border-top: solid #f2f2f2 2px;
   padding-top: 1em;
-}*/
+  text-decoration: none;
+}
+
+.link:hover {
+  border-top: solid #0065fc 2px;
+}
+
+#link_inscr {
+  padding-top: 1em;
+  text-decoration: none;
+}
 
 #liens_top_resp {
   display: none;
 }
 
-#color_act_resp_act_heb,
-#color_act_resp_act,
-#color_act_resp,
-#color_rech {
-  color: white;
-}
-
-#color_act {
-  color: black;
-}
-
-#liens_top {
-  display: flex;
-  justify-content: flex-end;
-  position: relative;
-  top: -3em;
-  font-size: 1.1em;
-}
-
-#spaninscr {
-  font-family: Raleway-Bold;
-  color: #0065fc;
-  text-decoration: none;
-  border-top: white solid;
-  position: relative;
-  top: 0.5em;
-}
-
 /*---------------------------------------------------------------------------------------------------*/
-/* Formulaire*/
+/*Formulaire*/
 /*---------------------------------------------------------------------------------------------------*/
 #formulaire {
   display: flex;
-  align-items: center;
+  flex-direction: row;
+  height: 3em;
 }
 
 #b_icone_form {
-  border: 1px solid #f2f2f2;
-  border-radius: 10px 0px 0px 10px;
-  padding: 11.6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f2f2f2;
-}
-
-#bouton_rech {
-  border: 1px solid #0065fc;
-  border-radius: 0px 10px 10px 0px;
-  padding: 11.8px;
-  background-color: #0065fc;
-  position: relative;
-  left: -3em;
-  cursor: pointer;
-}
-
-#bouton_resp {
-  background-color: transparent;
-  border: none;
-  color: transparent;
+  width: 3em;
+  border-radius: 20px 0px 0px 20px;
 }
 
 input {
-  border: solid 2px #f2f2f2;
-  opacity: 0.8;
-  height: 35px;
+  width: 100%;
+  height: 41px;
+}
+
+#bouton_rech {
+  border: #0065fc;
+  background-color: #0065fc;
+  color: white;
+  height: 3.5em;
+  border-radius: 0px 15px 15px 0px;
+}
+
+#bouton_resp {
+  display: none;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -220,110 +181,53 @@ input {
 }
 
 @media screen and (max-width: 768px) {
-  Body {
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
-    overflow-x: hidden;
+  /*---------------------------------------------------------------------------------------------------*/
+  /*NAV*/
+  /*---------------------------------------------------------------------------------------------------*/
+  nav {
+    width: auto;
   }
 
-  #bloc_page {
-    margin: 1em;
-  }
-
-  /*nav {
-    width: 100%;
-    margin: 0 auto 0 auto;
-  }*/
-
-  #log_resp {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 26em;
-  }
-
-  #inscr_resp {
-    display: flex;
-    color: #0065fc;
-    font-size: 1.2em;
-    text-decoration: none;
-    margin-right: 1em;
+  .link {
+    display: none;
   }
 
   #liens_top_resp {
     display: flex;
-    font-size: 1.2em;
-    width: 18em;
     justify-content: space-between;
-    margin-left: 2em;
-    padding-top: 2em;
   }
 
-  #liens_top {
-    display: none;
-  }
-
-  .liens_top_right_resp {
+  .link_resp {
     display: flex;
     justify-content: center;
-    width: 10em;
     text-decoration: none;
-    border-bottom: 3px solid #f2f2f2;
+    min-width: 50%;
+    border-bottom: solid #f2f2f2 2px;
     padding-bottom: 1em;
   }
 
-  .liens_top_right_resp:hover {
-    border-bottom: 3px solid #0065fc;
+  .link_resp:hover {
+    border-bottom: solid #0065fc 2px;
   }
-
-  #color_act_resp_heb {
-    color: #0065fc;
-  }
-
-  #color_act_resp_activ {
-    color: black;
-  }
-
-  h1 {
-    width: 15em;
-    overflow: auto;
-  }
-  #formulaire {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    flex-wrap: nowrap;
-  }
-
-  #b_icone_form {
-    border: 1px solid #f2f2f2;
-    border-radius: 10px 0px 0px 10px;
-    padding: 1.25em;
-    background-color: #f2f2f2;
-  }
-
-  input {
-    padding: 9.5px;
-    width: 15em;
-    font-size: 1.2em;
-  }
+  /*---------------------------------------------------------------------------------------------------*/
+  /*Formulaire*/
+  /*---------------------------------------------------------------------------------------------------*/
 
   #bouton_rech {
     display: none;
   }
 
   #bouton_resp {
-    color: white;
+    display: flex;
     background-color: #0065fc;
-    border: 1px solid #0065fc;
-    border-radius: 10px 10px 10px 10px;
-    height: 4.3em;
-    width: 4.3em;
-    position: relative;
-    left: -1em;
-    top: -0.2em;
+    border-radius: 10px;
+    color: white;
+    padding: 1em;
   }
+
+  /*---------------------------------------------------------------------------------------------------*/
+  /*Filtres*/
+  /*---------------------------------------------------------------------------------------------------*/
 
   #filtres {
     display: flex;
@@ -339,11 +243,5 @@ input {
   #f_resp2 {
     display: flex;
     flex-direction: column;
-  }
-
-  #phrase_info {
-    width: 23em;
-    font-size: 1.2em;
-    overflow: auto;
   }
 }
