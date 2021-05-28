@@ -1,12 +1,13 @@
 #bloc_gris_footer {
   background-color: #f2f2f2;
+  height: 10em;
 }
 
 #pied_de_page {
   display: flex;
   flex-direction: row;
-  border: solid blue 2px;
-  margin: 3em;
+  margin: 5em;
+  padding-top: 1em;
 }
 
 .blocs_footer {
@@ -21,9 +22,29 @@
   color: black;
 }
 
+#bloc2_bot,
+#bloc3_bot {
+  margin-left: 8em;
+}
+
 @media screen and (max-width: 768px) {
+  #bloc_gris_footer {
+    background-color: #f2f2f2;
+    height: auto;
+  }
+
   #pied_de_page {
     display: flex;
     flex-direction: column;
+    /*background-color: #f2f2f2;*/
+  }
+
+  #bloc2_bot,
+  #bloc3_bot {
+    margin-left: 0;
+  }
+
+  #pied_de_page {
+    margin: 2em;
   }
 }

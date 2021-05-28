@@ -65,7 +65,7 @@ nav {
 }
 
 .link:hover {
-  border-top: solid #0065fc 2px;
+  border-top: solid #0065fc 3px;
 }
 
 #link_inscr {
@@ -91,13 +91,14 @@ nav {
   justify-content: center;
   align-items: center;
   background-color: #f2f2f2;
-  width: 3em;
+  width: 2.8em;
   border-radius: 20px 0px 0px 20px;
 }
 
 input {
   width: 100%;
   height: 41px;
+  border: 2px solid #f2f2f2;
 }
 
 #bouton_rech {
@@ -207,7 +208,7 @@ input {
   }
 
   .link_resp:hover {
-    border-bottom: solid #0065fc 2px;
+    border-bottom: solid #0065fc 3px;
   }
   /*---------------------------------------------------------------------------------------------------*/
   /*Formulaire*/
