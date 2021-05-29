@@ -121,7 +121,11 @@ input {
   align-items: baseline;
 }
 
-#f_resp1,
+#f_resp1 {
+  display: flex;
+  flex-direction: row;
+}
+
 #f_resp2 {
   display: flex;
   flex-direction: row;
@@ -229,10 +233,8 @@ input {
   /*---------------------------------------------------------------------------------------------------*/
   /*Filtres*/
   /*---------------------------------------------------------------------------------------------------*/
-
   #filtres {
     display: flex;
-    align-items: baseline;
     flex-direction: column;
   }
 
@@ -243,6 +245,6 @@ input {
 
   #f_resp2 {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
   }
 }
