@@ -47,15 +47,17 @@
 
 .bloc_stars_lpp {
   position: relative;
-  bottom: -4em;
+  bottom: -3em;
 }
 
 .text_img_lpp {
   margin-left: 15px;
+  padding-top: 1em;
 }
 
 .text_img_heb {
   margin-left: 15px;
+  padding-top: 0.5em;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -138,6 +140,7 @@
 
   .text_img_lpp {
     font-size: 14px;
+    padding-top: 1em;
   }
 
   #bloc_gris_heb {
@@ -153,5 +156,6 @@
 
   .bloc_photo_heb {
     width: 100%;
+    box-shadow: 1px 1px 12px rgba(194, 194, 194, 0.397);
   }
 }

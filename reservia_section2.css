@@ -54,6 +54,10 @@
   object-fit: cover;
 }
 
+.marge_title_act {
+  padding-left: 1em;
+}
+
 @media screen and (max-width: 768px) {
   body {
     width: auto;
