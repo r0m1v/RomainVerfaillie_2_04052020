@@ -5,11 +5,6 @@
 /*---------------------------------------------------------------------------------------------------*/
 /*Les plus populaire*/
 /*---------------------------------------------------------------------------------------------------*/
-/*#align_h2_icone {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-}*/
 
 .marge_section1 {
   display: flex;
@@ -28,12 +23,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2em;
 }
 
 .bloc_photo_lpp {
   display: flex;
   width: 90%;
-  height: 8em;
+  height: 10em;
   border-radius: 20px;
   margin: 1%;
   overflow: hidden;
@@ -42,7 +38,7 @@
 }
 
 .bloc_photo_lpp:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
   cursor: pointer;
 }
 
@@ -52,18 +48,15 @@
 }
 
 .bloc_stars_lpp {
-  position: relative;
-  bottom: -3em;
+  margin-bottom: 0.5em;
 }
 
 .text_img_lpp {
   margin-left: 15px;
   padding-top: 1em;
-}
-
-.text_img_heb {
-  margin-left: 15px;
-  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -86,7 +79,7 @@
   display: flex;
   flex-direction: column;
   width: 35%;
-  height: 10em;
+  height: 13em;
   border: solid black 2px;
   border-radius: 20px;
   margin: 1%;
@@ -102,8 +95,20 @@
 }
 
 .bloc_photo_heb:hover {
-  transform: scale(1.1);
+  transform: scale(1.01);
   cursor: pointer;
+}
+
+.marge_text_heb {
+  padding: 0.2em;
+}
+
+.text_img_heb {
+  margin-left: 15px;
+  padding-top: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .icone_star_blue {
@@ -133,12 +138,16 @@
 
   .marge_section1 {
     margin: 0;
+    padding-top: 1em;
   }
 
   #bloc_gris_lpp {
     width: 100%;
-    margin: 0;
-    padding: 3%;
+    border-radius: 0;
+  }
+
+  #groupe_photos_lpp {
+    padding-top: 1em;
   }
 
   .bloc_photo_lpp {
@@ -159,6 +168,7 @@
   .groupe_photos_heb {
     display: flex;
     flex-direction: column;
+    padding-top: 1em;
   }
 
   .bloc_photo_heb {

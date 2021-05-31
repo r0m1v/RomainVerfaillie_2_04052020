@@ -107,12 +107,16 @@ input {
   color: white;
   height: 3.5em;
   border-radius: 0px 15px 15px 0px;
-  position: relative;
-  left: -2px;
+  /*position: relative;
+  left: -2px;*/
 }
 
 #bouton_resp {
   display: none;
+}
+
+.test {
+  border: blue solid 2px;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -176,8 +180,8 @@ input {
   border: 2px solid #f2f2f2;
   border-radius: 50%;
   color: #0065fc;
-  width: 20px;
-  height: 20px;
+  min-width: 20px;
+  min-height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,10 +225,12 @@ input {
   /*---------------------------------------------------------------------------------------------------*/
 
   #formulaire {
+    display: flex;
+    justify-content: space-between;
   }
 
   input {
-    max-width: auto;
+    min-width: auto;
     height: 3.15em;
   }
 
@@ -238,8 +244,8 @@ input {
     border-radius: 10px;
     color: white;
     padding: 1em;
-    position: relative;
-    left: -5px;
+    /*position: relative;
+    left: -5px;*/
   }
 
   /*---------------------------------------------------------------------------------------------------*/
