@@ -5,10 +5,16 @@
 /*---------------------------------------------------------------------------------------------------*/
 /*Les plus populaire*/
 /*---------------------------------------------------------------------------------------------------*/
-#align_h2_icone {
+/*#align_h2_icone {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+}*/
+
+.marge_section1 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 
 #bloc_gris_lpp {
@@ -132,6 +138,7 @@
   #bloc_gris_lpp {
     width: 100%;
     margin: 0;
+    padding: 3%;
   }
 
   .bloc_photo_lpp {

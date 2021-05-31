@@ -13,7 +13,6 @@
 .blocs_footer {
   display: flex;
   flex-direction: column;
-  border: solid green 2px;
   margin-right: 3em;
 }
 
