@@ -80,25 +80,31 @@ nav {
 /*---------------------------------------------------------------------------------------------------*/
 /*Formulaire*/
 /*---------------------------------------------------------------------------------------------------*/
+
 #formulaire {
   display: flex;
   flex-direction: row;
   height: 3em;
-  width: auto;
 }
 
 #b_icone_form {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  min-width: 2.5em;
   background-color: #f2f2f2;
-  width: 2.8em;
   border-radius: 20px 0px 0px 20px;
 }
 
+.bouton_form {
+  display: flex;
+  justify-content: flex-end;
+}
+
 input {
-  height: 3.15em;
-  border: 2px solid #f2f2f2;
+  font-size: 18px;
+  height: 42px;
+  border: #f2f2f2 solid 2px;
 }
 
 #bouton_rech {
@@ -107,16 +113,10 @@ input {
   color: white;
   height: 3.5em;
   border-radius: 0px 15px 15px 0px;
-  /*position: relative;
-  left: -2px;*/
 }
 
 #bouton_resp {
   display: none;
-}
-
-.test {
-  border: blue solid 2px;
 }
 
 /*---------------------------------------------------------------------------------------------------*/
@@ -224,16 +224,6 @@ input {
   /*Formulaire*/
   /*---------------------------------------------------------------------------------------------------*/
 
-  #formulaire {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  input {
-    min-width: auto;
-    height: 3.15em;
-  }
-
   #bouton_rech {
     display: none;
   }
@@ -244,8 +234,14 @@ input {
     border-radius: 10px;
     color: white;
     padding: 1em;
-    /*position: relative;
-    left: -5px;*/
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input {
+    min-width: 100%;
   }
 
   /*---------------------------------------------------------------------------------------------------*/

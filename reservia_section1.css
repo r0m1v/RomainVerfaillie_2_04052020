@@ -155,7 +155,10 @@
   }
 
   .text_img_lpp {
-    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
     padding-top: 1em;
   }
 
