@@ -35,7 +35,6 @@
   #pied_de_page {
     display: flex;
     flex-direction: column;
-    /*background-color: #f2f2f2;*/
   }
 
   #bloc2_bot,
@@ -45,5 +44,6 @@
 
   #pied_de_page {
     margin: 2em;
+    margin-bottom: 0;
   }
 }
